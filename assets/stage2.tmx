@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="32" tileheight="32" nextobjectid="25">
+ <tileset firstgid="1" source="IWBTGTiles/IWBTGTiles.tsx"/>
+ <layer name="Tiles" width="25" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,11,0,0,0,11,0,0,0,0,0,0,8,0,0,0,0,0,0,11,0,0,0,0,0,
+5,5,12,0,14,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,12,0,14,5,5,
+2,15,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,0,0,0,15,2,
+2,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,2,2,11,0,0,0,2,
+2,0,0,0,11,2,2,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,0,0,2,
+2,0,14,2,2,2,2,0,0,0,0,0,7,0,0,0,0,0,2,2,2,2,12,0,2,
+2,0,0,0,15,15,0,0,0,0,0,14,2,12,0,0,0,0,0,15,15,0,0,0,2,
+2,0,0,0,0,0,0,0,0,0,0,14,2,12,0,0,0,0,0,0,0,0,0,2,2,
+2,0,0,11,0,0,11,0,0,0,0,14,2,12,0,0,0,0,11,0,0,11,2,2,2,
+2,2,2,2,2,2,2,0,0,0,0,14,2,12,0,0,0,0,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,0,0,0,0,14,2,12,0,0,0,0,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <objectgroup name="GameObjects">
+  <object id="11" name="stage2_trigger_2" x="224" y="401" width="126" height="55">
+   <properties>
+    <property name="ControllerName" value="stage2_trigger_2"/>
+   </properties>
+  </object>
+  <object id="12" name="stage2_trigger_4" x="576" y="383" width="31" height="31">
+   <properties>
+    <property name="ControllerName" value="stage2_trigger_4"/>
+   </properties>
+  </object>
+  <object id="13" name="stage2_trigger_6" x="101" y="589" width="88" height="53">
+   <properties>
+    <property name="ControllerName" value="stage2_trigger_6"/>
+   </properties>
+  </object>
+  <object id="14" x="115" y="587" width="1"/>
+  <object id="16" name="stage2_trigger_7" x="260" y="677" width="85" height="53">
+   <properties>
+    <property name="ControllerName" value="stage2_trigger_7"/>
+   </properties>
+  </object>
+  <object id="18" name="stage2_trigger_3" x="444" y="401" width="126" height="55">
+   <properties>
+    <property name="ControllerName" value="stage2_trigger_3"/>
+   </properties>
+  </object>
+  <object id="19" name="stage2_trigger_1" x="386" y="386" width="24" height="27">
+   <properties>
+    <property name="ControllerName" value="stage2_trigger_1"/>
+   </properties>
+  </object>
+  <object id="21" name="stage2_trigger_5" x="386" y="544" width="24" height="27">
+   <properties>
+    <property name="ControllerName" value="stage2_trigger_5"/>
+   </properties>
+  </object>
+  <object id="22" name="stage2_trigger_8" x="98" y="446" width="25" height="54">
+   <properties>
+    <property name="ControllerName" value="stage2_trigger_8"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
