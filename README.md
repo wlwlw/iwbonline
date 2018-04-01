@@ -1,4 +1,4 @@
 # I Wanna Be Online
-A demo intended online multiplayer version IWBTG based on html5 and nodejs.
+A simple online multiplayer version IWBTG (early alpha) based on html5 and nodejs.
 
 # [Play Now](https://wswlymf.github.io)
