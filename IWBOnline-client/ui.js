@@ -203,7 +203,7 @@ GameOver = function(env){
 LoginUI = function(env){
 	//env.inputEventTopic = [];
 	return {
-		"backgroud": ImageElement(env, "backgroud", {x:0, y:0, width:800, height:800}, {width:800, height:800, source: "/assets/Background/loginScene.png"}),
+		"background": ImageElement(env, "background", {x:0, y:0, width:800, height:800}, {width:800, height:800, source: "/assets/Background/loginScene.png"}),
 		"username": InputBox(env, "username", {x:200, y:500, width:300, height: 60}),
 		"login": LoginButton(env, "login", {x: 520, y:500,width:130, height:60},"Login"),
 		"message": TextElement(env, "message", {x: 200, y: 500, width:100, height:60}, "Player ID",style="#C0C0C0")
