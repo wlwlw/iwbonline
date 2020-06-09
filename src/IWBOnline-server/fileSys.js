@@ -16,14 +16,14 @@ saveStageState = function(paht){}
 readSaveFile = function(path){}
 
 loadStageState = function(stageName){
-	var path = './assets/Stages/'+stageName+'.json';
+	var path = './src/assets/Stages/'+stageName+'.json';
 	//load from the exported file of map editor
 	var stageStateJSON = readJSON(path);
 	var tileSets = [];
 	for(var i=0; i<stageStateJSON.tilesets.length; i++){
 		var tileSetPath = stageStateJSON.tilesets[i].source;
 		tileSetPath = tileSetPath.split('\/');
-		tileSetPath[0] = "\/assets";
+		tileSetPath[0] = "\/src\/assets";
 		var tileSet = readXML('.'+tileSetPath.join('\/')).tileset;
 		tileSet.firstgid = stageStateJSON.tilesets[i].firstgid;
 		tileSets.push(tileSet);
