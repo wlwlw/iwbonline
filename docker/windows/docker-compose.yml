@@ -6,7 +6,7 @@ services:
       dockerfile: "${BUILD_CONTEXT}/docker/windows/dockerfile"
       args:
         BASE_IMG: "${BASE_IMG}"
-    image: "iwbonline:${TAG}"
+    image: "${CI_REGISTRY}/iwbonline:${TAG}"
     env_file:
       - .env
     container_name: iwbonline
